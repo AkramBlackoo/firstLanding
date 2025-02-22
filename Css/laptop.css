@@ -1,0 +1,311 @@
+@media (min-width: 1026px) {
+	/* --------------------the start of part 01------------------------------ */
+
+	.part-1 {
+		position: relative;
+		height: auto;
+	}
+	.hero {
+		display: flex
+		;
+				flex-wrap: wrap;
+				flex-direction: row;
+				justify-content: center;
+				position: relative;
+				margin-top: 97px;
+	}
+
+	.part-1:after {
+		content: "";
+        background-image: url(/img/project-01/ramen-store.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -61px;
+        z-index: -1;
+        box-sizing: border-box;
+        fill-opacity: var(--main-color);
+        background-color: rgba(237, 76, 33, 0.5);
+        backdrop-filter: blur(80%);
+        background-blend-mode: overlay;
+        filter: blur(4px) grayscale(50%);
+	}
+	.dsc-0x-parent {
+		display: none;
+	}
+	.rgs-prt {
+		width: 50%;
+		display: flex;
+		justify-content: end;
+	}
+
+	.register {
+		background-color: var(--secondary-color);
+		color: white;
+		padding: 30px 60px 30px 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: fit-content;
+		height: 100%;
+		gap: 40px;
+		flex-wrap: wrap;
+		position: relative;
+	}
+
+	.register h2 {
+		color: white;
+		font-weight: 350;
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		font-size: 50px;
+		position: relative;
+		width: 100%;
+		overflow: visible;
+	}
+
+	.register h2::after {
+		content: "";
+		background-color: var(--main-color);
+		width: 20%;
+		height: 2px;
+		position: absolute;
+		bottom: -20px;
+		left: 0;
+		margin-bottom: 10px;
+	}
+	.register ul {
+		list-style: none;
+	}
+	.register li {
+		background-image: url(/img/project-01/correct-sign.svg);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 15px 15px;
+		padding-left: 25px;
+		color: white;
+		font-size: 20px;
+	}
+
+	.register a {
+		background-color: var(--main-color);
+		padding: 10px 20px;
+		text-decoration: none;
+		font-size: 18px;
+		font-weight: 600;
+		color: white;
+		margin: 15px 0;
+		font-size: 20px;
+		width: fit-content;
+	}
+
+	.dsc-01-parent {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: start;
+		flex-wrap: wrap;
+		width: 50%;
+		position: relative;
+	}
+
+	.dsc-01 {
+		background-color: var(--secondary-color);
+		/* border: 6px solid var(--secondary-color); */
+		padding: 10px;
+		line-height: 2;
+		bottom: 0;
+		flex-grow: 0;
+		height: 40%;
+		width: 50%;
+		order: 2;
+		color: white;
+		font-weight: 600;
+		display: none;
+	}
+	.dsc-05 {
+		background-image: url(/img/project-01/tokyo-street-02.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 70%;
+		height: 100%;
+	}
+
+	/* --------------------the start of part 02------------------------------ */
+
+	.part-2 {
+		height: 100%;
+	}
+
+	.plans {
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: nowrap;
+		align-content: space-around;
+		padding-bottom: 30px;
+	}
+
+	.plans-child {
+		background-color: var(--cards-BG);
+		/* margin: auto; */
+		padding: 60px 30px;
+		height: 100%;
+		width: min-content;
+		flex-shrink: 0;
+		max-width: 25%;
+		min-width: 20%;
+		min-height: 100%;
+		box-shadow: 4px 16px 11px 0px grey;
+	}
+
+	.plans-nmb {
+		color: var(--main-color);
+		font-size: 30px;
+		font-weight: 700;
+		margin: 0px 0 10px;
+	}
+
+	.plans h2 {
+		font-size: 25px;
+		margin: 20px 0;
+		text-transform: uppercase;
+		min-height: 3.5em;
+	}
+
+	.dsc-02 {
+		line-height: 2;
+		font-size: 18px;
+		font-weight: 400;
+		margin: 20px 0;
+	}
+
+	.learn-more {
+		color: var(--main-color);
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 20px;
+		position: relative;
+	}
+
+	.learn-more::after {
+		content: "";
+		background-image: url(/img/project-01/arrow-narrow-right.svg);
+		background-repeat: no-repeat;
+		background-size: 20px 20px;
+		background-position: center;
+		width: fit-content;
+		position: absolute;
+		color: black;
+		position: absolute;
+		bottom: 1px;
+		right: -25px;
+		padding: 10px;
+	}
+
+	/* --------------------the start of part 03------------------------------ */
+
+	.part-3 {
+		width: 100%;
+		height: 100%;
+	}
+	.article {
+		display: flex;
+		padding: 40px;
+		flex-wrap: wrap;
+		flex-direction: row;
+		height: fit-content;
+		justify-content: space-around;
+		align-content: center;
+		position: relative;
+	}
+	.article::after {
+		content: "";
+		background-image: url(/img/project-01/tokyo-street-01.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-color: rgba(18, 35, 51, 0.5);
+		background-blend-mode: overlay;
+		filter: blur(4px) grayscale(50%);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1; /* Place it behind the content */
+	}
+
+	.dsc-article {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		justify-content: start;
+		align-content: flex-start;
+		z-index: 4;
+		max-width: 50%;
+		flex-grow: 0;
+		margin-left: 5px;
+		box-sizing: border-box;
+	}
+
+	.dsc-article h2 {
+		font-size: 30px;
+		font-weight: 700;
+		padding: 20px 0;
+		position: relative;
+		color: white;
+	}
+
+	.dsc-article h2::first-letter {
+		text-transform: capitalize;
+	}
+
+	.dsc-article h2::before {
+		content: "";
+		background-color: var(--main-color);
+		width: 20%;
+		height: 2px;
+		position: absolute;
+		bottom: -10px;
+		left: 0;
+		margin-bottom: 10px;
+	}
+
+	.dsc-03 {
+		color: white;
+		line-height: 2;
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	.btn-learn-more {
+		background-color: var(--main-color);
+		padding: 10px 20px;
+		width: fit-content;
+		color: white;
+		text-transform: uppercase;
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.article-img {
+		width: 40%;
+		display: flex;
+		justify-content: flex-end;
+		order: -1;
+	}
+	.article-img img {
+		width: 75%;
+		aspect-ratio: 1 / 1;
+	}
+/* Nav Bar Settings  */
+.side-menu-icon {
+	display: none;
+}
+}

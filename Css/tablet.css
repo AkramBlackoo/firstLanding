@@ -1,0 +1,334 @@
+* {
+	font-family: "Roboto", serif, "Open Sans", "Helvetica Neue", sans-serif;
+	margin: 0;
+	padding: 0;
+	color: black;
+	text-transform: capitalize;
+	box-sizing: border-box;
+	overflow-x: clip;
+}
+
+body {
+	padding: 0;
+}
+:root {
+	--main-color: #e74c3c;
+	--secondary-color: #424949 ;
+	--secondary-color-2: #ec7063 ;
+	--cards-BG: #eee;
+}
+
+.home {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	height: auto;
+	width: 100%;
+	gap: 100px;
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+	.hero {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		/* gap: 20px; */
+		justify-content: center;
+		position: relative;
+		margin-top: 40px;padding-top: 80px
+	}
+
+	.part-1 {
+		position: relative;
+		height: auto;
+	}
+
+	.part-1:after {
+		content: "";
+		background-image: url(/img/project-01/ramen-store.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 70%;
+		position: absolute;
+		top: -60px;
+		z-index: -1;
+		box-sizing: border-box;
+		fill-opacity: var(--main-color);
+		background-color: rgba(237, 76, 33, 0.4);
+		backdrop-filter: blur(50%); /* Apply blur effect */
+		background-blend-mode: overlay;
+		filter: blur(4px) grayscale(50%); /* Blur the background image */
+		/* Blend mode */
+	}
+.dsc-0x-parent {
+	display: none;
+}
+	.rgs-prt {
+		width: 50%;
+		display: flex;
+		justify-content: end;
+	}
+
+	.register {
+		background-color: var(--secondary-color);
+		color: white;
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: fit-content;
+		height: 100%;
+		gap: 40px;
+		flex-wrap: wrap;
+		position: relative;
+	}
+
+	.register h2 {
+		color: white;
+		font-weight: 350;
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		font-size: 50px;
+		position: relative;
+		width: 100%;
+		overflow: visible;
+	}
+
+	.register h2::after {
+		content: "";
+		background-color: var(--main-color);
+		width: 20%;
+		height: 2px;
+		position: absolute;
+		bottom: -20px;
+		left: 0;
+		margin-bottom: 10px;
+	}
+	.register ul {
+		list-style: none;
+	}
+	.register li {
+		background-image: url(/img/project-01/correct-sign.svg);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 15px 15px;
+		padding-left: 25px;
+		color: white;
+		font-size: 20px;
+	}
+
+	.register a {
+		background-color: var(--main-color);
+		padding: 10px 20px;
+		text-decoration: none;
+		font-size: 18px;
+		font-weight: 600;
+		color: white;
+		margin: 15px 0;
+		font-size: 20px;
+		width: fit-content;
+	}
+
+	.dsc-01-parent {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: start;
+		flex-wrap: wrap;
+		width: 50%;
+		position: relative;
+	}
+
+	.dsc-05 {
+		background-image: url(/img/project-01/tokyo-street-02.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 80%;
+		height: 100%;
+	}
+
+
+	.dsc-01 {
+		display: none;
+	}
+
+	.part-2 {
+		height: 100%;
+	}
+
+	.plans {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		align-content: space-evenly;
+	}
+
+	.plans-child {
+		background-color: var(--cards-BG);
+		margin: auto;
+		padding: 60px 30px;
+		height: 100%;
+		width: fit-content;
+		flex-shrink: 0;
+		max-width: 30%;
+		min-width: 25%;
+		min-height: 100%;
+	}
+
+	.plans-nmb {
+		color: var(--main-color);
+		font-size: 30px;
+		font-weight: 700;
+		margin: 0px 0 10px;
+	}
+
+	.plans h2 {
+		font-size: 25px;
+		margin: 20px 0;
+		text-transform: uppercase;
+		min-height: 3.5em;
+	}
+
+	.dsc-02 {
+		line-height: 2;
+		font-size: 18px;
+		font-weight: 400;
+		margin: 20px 0;
+	}
+
+	.learn-more {
+		color: var(--main-color);
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 20px;
+		position: relative;
+	}
+
+	.learn-more::after {
+		content: "";
+		background-image: url(/img/project-01/arrow-narrow-right.svg);
+		background-repeat: no-repeat;
+		background-size: 20px 20px;
+		background-position: center;
+		width: fit-content;
+		position: absolute;
+		color: black;
+		position: absolute;
+		bottom: 1px;
+		right: -25px;
+		padding: 10px;
+	}
+
+	.part-3 {
+		width: 100%;
+		height: 100%;
+	}
+	.article {
+		display: flex;
+		padding: 40px;
+		flex-wrap: wrap;
+		flex-direction: row;
+		height: fit-content;
+
+		justify-content: space-between;
+		align-content: center;
+		position: relative;
+	}
+	.article::after {
+		content: "";
+		background-image: url(/img/project-01/tokyo-street-01.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-color: rgba(18, 35, 51, 0.5);
+		background-blend-mode: overlay;
+		filter: blur(4px) grayscale(50%);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1; /* Place it behind the content */
+	}
+
+	.dsc-article {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		justify-content: center;
+		align-content: flex-start;
+		z-index: 4;
+	}
+
+	.dsc-article h2 {
+		font-size: 30px;
+		font-weight: 700;
+		padding: 20px 0;
+		position: relative;
+		color: white;
+	}
+
+	.dsc-article h2::first-letter {
+		text-transform: capitalize;
+	}
+
+	.dsc-article h2::before {
+		content: "";
+		background-color: var(--main-color);
+		width: 20%;
+		height: 2px;
+		position: absolute;
+		bottom: -10px;
+		left: 0;
+		margin-bottom: 10px;
+	}
+
+	.dsc-03 {
+		color: white;
+		line-height: 2;
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	.btn-learn-more {
+		background-color: var(--main-color);
+		padding: 10px 20px;
+		width: fit-content;
+		color: white;
+		text-transform: uppercase;
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.article-img {
+		width: 50%;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.article-img img {
+		width: 75%;
+		aspect-ratio: 1 / 1;
+	}
+
+	/* Nav Bar Settings  */
+nav {
+	display: none;
+}
+
+.Contact-Us{
+	display: none;
+}
+
+.side-menu-icon {
+	height: 100%;
+	width: 50%;
+}
+}
+
+.btny {
+
+}

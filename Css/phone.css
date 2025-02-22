@@ -1,0 +1,352 @@
+@media (max-width: 767px) {
+	/* --------------------the start of part 01------------------------------ */
+	.part-1:after {
+		content: "";
+		background-image: url(/img/project-01/ramen-store.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: -60px;
+		z-index: -1;
+		box-sizing: border-box;
+		fill-opacity: var(--main-color);
+		background-color: rgba(237, 76, 33, 0.4);
+		backdrop-filter: blur(50%); /* Apply blur effect */
+		background-blend-mode: overlay;
+		filter: blur(4px) grayscale(50%); /* Blur the background image */
+		/* Blend mode */
+	}
+	.hero {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		margin-top: 40px;
+		overflow-y: hidden;
+	}
+
+	.part-1 {
+		position: relative;
+		height: auto;
+	}
+
+	.dsc-0x-parent {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: -2px;
+	}
+
+	.dsc-0x {
+		background-image: url(/img/project-01/tokyo-street-02.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		border: 7px solid var(--secondary-color);
+		margin: 0;
+		outline: none;
+		width: 80%;
+		height: 100px;
+		padding: 20px;
+		line-height: 2;
+		flex-grow: 0;
+		/* height: auto; */
+		width: 80%;
+		box-sizing: border-box;
+		border-radius: 15px 15px 0 0;
+		margin: 0;
+		border-top-width: 10px;
+	}
+
+	.rgs-prt {
+		width: 80%;
+		display: flex;
+		justify-content: center;
+		background-color: var(--secondary-color);
+		min-width: 70%;
+	}
+
+	.register {
+		color: white;
+		padding: 30px 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: min-content;
+		height: 100%;
+		gap: 40px;
+		flex-wrap: wrap;
+		position: relative;
+		min-width: 80%;
+	}
+
+	.register h2 {
+		color: white;
+		font-weight: 600;
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		font-size: 50px;
+		position: relative;
+		width: 100%;
+		overflow: visible;
+	}
+
+	.register h2::after {
+		content: "";
+		background-color: var(--main-color);
+		width: 20%;
+		height: 2px;
+		position: absolute;
+		bottom: -20px;
+		left: 0;
+		margin-bottom: 10px;
+	}
+	.register ul {
+		list-style: none;
+	}
+	.register li {
+		background-image: url(/img/project-01/correct-sign.svg);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 10px 10px;
+		padding-left: 25px;
+		color: white;
+		font-size: 20px;
+	}
+
+	.register a {
+		background-color: var(--main-color);
+		padding: 10px 20px;
+		text-decoration: none;
+		font-size: 18px;
+		font-weight: 600;
+		color: white;
+		margin: 15px 0;
+		font-size: 20px;
+		width: fit-content;
+	}
+
+	.dsc-01-parent {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: -2px;
+	}
+
+	.dsc-05 {
+		background-image: url(/img/project-01/tokyo-street-01.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		border: 7px solid var(--secondary-color);
+		margin: 0;
+		outline: none;
+		width: 80%;
+		height: 200px;
+		padding: 20px;
+		line-height: 2;
+		flex-grow: 0;
+		/* height: auto; */
+		width: 80%;
+		box-sizing: border-box;
+		border-radius: 0 0 15px 15px;
+		border-bottom-width: 10px;
+	}
+	/* --------------------the start of part 02------------------------------ */
+
+	.part-2 {
+		height: 100%;
+	}
+
+	.plans {
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: row;
+		/* min-width: 40%; */
+		flex-wrap: wrap;
+		height: auto;
+		align-content: center;
+		gap: 40px;
+	}
+
+	.plans-child {
+		width: min-content;
+		background-color: var(--cards-BG);
+		margin: auto;
+		padding: 60px 30px;
+		height: 400px;
+		overflow-y: hidden;
+		width: fit-content;
+		box-sizing: border-box;
+		flex-shrink: 1;
+		max-width: 300px;
+	}
+
+	.plans-nmb {
+		color: var(--main-color);
+		font-size: 30px;
+		font-weight: 700;
+		margin: 0px 0 10px;
+	}
+
+	.plans h2 {
+		font-size: 30px;
+		margin: 20px 0;
+		text-transform: uppercase;
+	}
+
+	.dsc-02 {
+		line-height: 2;
+		font-size: 18px;
+		font-weight: 400;
+		margin: 20px 0;
+	}
+
+	.learn-more {
+		color: var(--main-color);
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 20px;
+		position: relative;
+		bottom: 0;
+	}
+
+	.learn-more::after {
+		content: "";
+		background-image: url(/img/project-01/arrow-narrow-right.svg);
+		background-repeat: no-repeat;
+		background-size: 20px 20px;
+		background-position: center;
+		width: fit-content;
+		position: absolute;
+		color: black;
+		position: absolute;
+		bottom: 1px;
+		right: -25px;
+		padding: 10px;
+	}
+	/* --------------------the start of part 03------------------------------ */
+
+	.part-3 {
+		width: 100%;
+		height: 100%;
+	}
+	.article {
+		display: flex;
+		padding: 40px;
+		flex-wrap: wrap;
+		flex-direction: row;
+		height: fit-content;
+
+		justify-content: space-between;
+		align-content: center;
+		position: relative;
+		gap: 20px;
+	}
+	.article::after {
+		content: "";
+		background-image: url(/img/project-01/tokyo-street-01.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-color: rgba(18, 35, 51, 0.5);
+		background-blend-mode: overlay;
+		filter: blur(4px) grayscale(50%);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1; /* Place it behind the content */
+	}
+
+	.dsc-article {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		justify-content: center;
+		align-content: flex-start;
+		z-index: 4;
+	}
+
+	.dsc-article h2 {
+		font-size: 30px;
+		font-weight: 700;
+		padding: 20px 0;
+		position: relative;
+		color: white;
+	}
+
+	.dsc-article h2::first-letter {
+		text-transform: capitalize;
+	}
+
+	.dsc-article h2::before {
+		content: "";
+		background-color: var(--main-color);
+		width: 20%;
+		height: 2px;
+		position: absolute;
+		bottom: -10px;
+		left: 0;
+		margin-bottom: 10px;
+	}
+
+	.dsc-03 {
+		color: white;
+		line-height: 2;
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	.btn-learn-more {
+		background-color: var(--main-color);
+		padding: 10px 20px;
+		width: fit-content;
+		color: white;
+		text-transform: uppercase;
+		font-weight: 600;
+		text-decoration: none;
+		align-self: center;
+	}
+
+	.article-img {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.article-img img {
+		width: 90%;
+		aspect-ratio: 1.5 / 1;
+	}
+
+	/* Nav Bar Settings  */
+	nav {
+		display: none;
+	}
+	.Contact-Us {
+		display: none;
+	}
+	.side-menu-icon {
+		height: 100%;
+		width: 60%;
+		margin-right: 50px;
+	}
+
+	.sidebar {
+		width: 75%;
+	}
+}
